@@ -5,4 +5,4 @@ def test_first_example(page):
     title=page.title()
     print(title)
     assert 'Google' in title
-    page.wait_for_timeout(20000)
+    page.wait_for_timeout(2000)
